@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music</title>
+  <style>
+    body {
+      background: linear-gradient(to right, lightblue, pink);
+      margin: 0;
+    }
+    header {
+      background-color: darkblue;
+      height: 200px;
+      overflow: hidden;
+    }
+    header img {
+      width: 110%;
+      height: 110%;
+      object-fit: cover;
+    }
+    nav {
+      background-color: darkblue;
+      padding: 10px 0;
+    }
+    table {
+      margin: 0 auto;
+    }
+    td {
+      padding: 10px;
+      position: relative;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    section {
+      background: linear-gradient(to right, lightblue, pink);
+      text-align: center;
+      padding: 20px;
+    }
+    h2, h1 {
+      margin: 20px 0;
+    }
+    .album {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .album-card {
+      background-color: lightcyan;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 300px;
+    }
+    .album-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .dropdown {
+      display: none;
+      position: absolute;
+      background-color: darkblue;
+      min-width: 160px;
+      z-index: 1;
+    }
+    .dropdown a {
+      display: block;
+      padding: 8px 16px;
+    }
+    td:hover .dropdown {
+      display: block;
+    }
+    marquee {
+      margin-bottom: 20px;
+    }
+    footer {
+      padding: 10px;
+      text-align: center;
+    }
+    footer a {
+      color: light;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html">
+    <img src="img/sky.jpeg" alt="yoonzino" title="my escape">
+  </a>
+</header>
+
+<nav>
+  <center>
+    <table cellspacing="5" cellpadding="5">
+      <tr>
+        <td><a href="index.html">Home</a></td>
+        <td><a href="profile.html">Profile</a></td>
+        <td><a href="family.html">Family</a></td>
+        <td><a href="friends.html">Friends</a></td>
+        <td>
+          Hobby
+          <div class="dropdown">
+            <a href="music.html">Music</a>
+            <a href="art.html">Movies</a>
+            <a href="picture.html">Pictures of the Scenery</a>
+          </div>
+        </td>
+        <td><a href="academic.html">Academic</a></td>
+       <td><a href="animal.html">Animals</a></td>
+      </tr>
+    </table>
+  </center>
+</nav>
+<hr>
+
+<marquee><h2><center>✩°｡⋆⸜ 🎧✮₊˚⊹♡My Favourite Music✩°｡⋆⸜ 🎧✮₊˚⊹♡</center></h2></marquee>
+
+<section>
+  <h2>My Escape</h2>
+  <a href="https://www.youtube.com/channel/UCfkXDY7vwkcJ8ddFGz8KusA">
+    <h1>SEVENTEEN RIGHT HERE!!</h1>
+  </a>
+
+  <div>
+    <a href="https://youtu.be/nvh3rO8jzok?feature=shared&t=124">
+      <img src="img/SVTT.png" alt="SVTT">
+    </a>
+    <p><center>Click the picture to go to YouTube</center></p>
+    <strong>Seventeen is a South Korean boy band formed by Pledis Entertainment.</strong>
+    <p>Their debut was in 2015 with the first song "Adore U".</p>
+  </div>
+
+  <div class="album">
+    <div class="album-card">
+      <a href="https://youtu.be/F2qZWD0F7rM?feature=shared&t=118">
+        <img src="img/vocal.jpg" alt="Vocal Unit" width="250" height="250">
+      </a>
+      <p><center>Click the picture to go to YouTube</center></p>
+      <strong>Seventeen's Hip Hop Unit:</strong>
+      <p>This unit has 4 members.
+	<ul>
+	<li>Scoups</li>
+	<li>Wonwoo</li>
+	<li>Mingyu</li>
+	<li>Vernon</li></p>
+    </div>
+
+    <div class="album-card">
+      <a href="https://youtu.be/bw4AuPrLWeA?si=eDecsajHWuKPyM7l&t=67">
+        <img src="img/hiphop.jpg" alt="Vocal Unit" width="250" height="250">
+      </a>
+      <p><center>Click the picture to go to YouTube</center></p>
+      <strong>Seventeen's Vocal Unit:</strong>
+      <p> This unit has 5 members
+	<ul>
+	<li>Woozi</li>
+	<li>Jeonghan</li>
+	<li>Joshua</li>
+	<li>Dk</li>
+	<li>Seungkwan</li>
+	</p>
+    </div>
+
+    <div class="album-card">
+      <a href="https://youtu.be/p8Qm_EDTyt0?feature=shared&t=66">
+        <img src="img/performance.jpg" alt="performance Unit" width="250" height="250">
+      </a>
+      <p><center>Click the picture to go to YouTube</center></p>
+      <strong>Seventeen's Performance Unit:</strong>
+      <p>	
+	<ul>
+	<li>Hoshi</li>
+	<li>Dino</li>
+	<li>Jun</li>
+	<li>The8</li>
+</p>
+    </div>
+  </div>
+
+<footer>
+<h4>copyright:AisyahAziz</h4>
+<h3 style="text-align:right;"><a href="#top">TOP</a></h3>
+</footer>
+</section>
+
+</body>
+</html>
