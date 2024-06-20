@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animals</title>
+  <style>
+    body {
+      background: linear-gradient(to right, lightblue, pink);
+      margin: 0;
+    }
+    header {
+      background-color: darkblue;
+      height: 200px;
+      overflow: hidden;
+    }
+    header img {
+      width: 110%;
+      height: 110%;
+      object-fit: cover;
+    }
+    nav {
+      background-color: darkblue;
+    }
+    table {
+      margin: 0 auto;
+      padding: 10px 0;
+    }
+    td {
+      padding: 10px;
+      position: relative;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    h2 {
+      margin: 0;
+    }
+    .dropdown {
+      display: none;
+      position: absolute;
+      background-color: darkblue;
+      min-width: 160px;
+      z-index: 1;
+    }
+    .dropdown a {
+      display: block;
+      padding: 8px 16px;
+    }
+    td:hover .dropdown {
+      display: block;
+    }
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 400px;
+      text-align: center;
+    }
+    .framed-img {
+      border: 2px solid black;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: transparent;
+    }
+    .img-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .img-container > div {
+      margin: 0 20px;
+    }
+    footer {
+      padding: 10px;
+      text-align: center;
+    }
+    footer a {
+      color: light;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html">
+    <img src="img/sky.jpeg" alt="yoonzino" title="my escape">
+  </a>
+</header>
+
+
+<nav>
+  <center>
+    <table cellspacing="5" cellpadding="5">
+      <tr>
+        <td><a href="index.html">Home</a></td>
+        <td><a href="profile.html">Profile</a></td>
+        <td><a href="family.html">Family</a></td>
+        <td><a href="friends.html">Friends</a></td>
+        <td>
+          Hobby
+          <div class="dropdown">
+            <a href="music.html">Music</a>
+            <a href="art.html">Movies</a>
+            <a href="picture.html">Pictures of the Scenery</a>
+          </div>
+        </td>
+        <td><a href="academic.html">Academic</a></td>
+       <td><a href="animal.html">Animals</a></td>
+      </tr>
+    </table>
+  </center>
+</nav>
+<hr>
+<marquee><h2><center>˗ˏˋ ♡ ˎˊ˗My Pet˗ˏˋ ♡ ˎˊ˗</center></h2></marquee>
+
+<section>
+    <div class="framed-img">
+      <img src="img/atan.jpeg" alt="Atan" title="My Atan" width="150px" height="150px">
+      <h3>ATAN</h3>
+    </div>
+    <div class="framed-img">
+      <video width="250" height="250" controls>
+        <source src="video/atan.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h3>ATAN</h3>
+    </div>
+    <div class="framed-img">
+      <img src="img/milo.jpg" alt="Atan" title="My Milo" width="150px" height="150px">
+      <h3>MILO</h3>
+    </div>
+  </div>
+</section>
+<center><h3>My forever favourite even these two already disappear<br>Atan was missing in November 2024 and Milo was missing in April 2023</h3></center>
+
+
+<footer>
+<h4>copyright:AisyahAziz</h4>
+<h3 style="text-align:right;"><a href="#top">TOP</a></h3>
+</footer>
+</body>
+</html>
+                  

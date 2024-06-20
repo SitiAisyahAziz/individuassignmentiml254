@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Academic</title>
+  <style>
+    body {
+      background: linear-gradient(to right, lightblue, lightpink);
+      margin: 0;
+    }
+    header {
+      background-color: darkblue;
+      height: 200px;
+      overflow: hidden;
+    }
+    header img {
+      width: 110%;
+      height: 110%;
+      object-fit: cover;
+    }
+    nav {
+      background-color: darkblue;
+    }
+    table {
+      margin: 0 auto;
+      padding: 10px 0;
+    }
+    td {
+      padding: 10px;
+      position: relative;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    section {
+      text-align: center;
+    }
+    h2 {
+      margin: 0;
+    }
+    .dropdown {
+      display: none;
+      position: absolute;
+      background-color: darkblue;
+      min-width: 160px;
+      z-index: 1;
+    }
+    .dropdown a {
+      display: block;
+      padding: 8px 16px;
+    }
+    td:hover .dropdown {
+      display: block;
+    }
+    .album {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .album-card {
+      background-color: lightcyan;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 250px;
+    }
+    .album-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      padding: 10px;
+      text-align: center;
+    }
+    footer a {
+      color: light;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html">
+    <img src="img/sky.jpeg" alt="yoonzino" title="my escape">
+  </a>
+</header>
+
+<nav>
+  <center>
+    <table cellspacing="5" cellpadding="5">
+      <tr>
+        <td><a href="index.html">Home</a></td>
+        <td><a href="profile.html">Profile</a></td>
+        <td><a href="family.html">Family</a></td>
+        <td><a href="friends.html">Friends</a></td>
+        <td>
+          Hobby
+          <div class="dropdown">
+            <a href="music.html">Music</a>
+            <a href="art.html">Movies</a>
+            <a href="picture.html">Pictures of the Scenery</a>
+          </div>
+        </td>
+        <td><a href="academic.html">Academic</a></td>
+        <td><a href="animal.html">Animals</a></td>
+      </tr>
+    </table>
+  </center>
+</nav>
+<hr>
+<marquee><h2><center>˗ˏˋ ♡ ˎˊ˗ My Background Academic ˗ˏˋ ♡ ˎˊ˗</center></h2></marquee>
+
+
+<audio controls autoplay>
+  <source src="audio/svt.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<p>
+Cheers to Youth-Seventeen (Vocal units)
+
+<h1><center>KINDERGARTEN</center></h1>
+<center>
+  <img src="img/aca.jpeg" alt="aisyah" title="academic" width="250px" height="250px">
+  <p>This is when I was a kid. My first-time convo</p>
+</center>
+
+<section class="album">
+  <div class="album-card">
+    <img src="img/skss3.jpeg" alt="Highschool" title="academic">
+    <p><strong>PRELIMINARY SCHOOL</strong></p>
+    <center>SEKOLAH KEBANGSAAN SRI SURIA (3)</center>
+  </div>
+  <div class="album-card">
+    <img src="img/smktm" alt="Highschool" title="academic">
+    <p><strong>HIGH SCHOOL</strong></p>
+    <center>SEKOLAH MENENGAH KEBANGSAAN TANAH MERAH (2)</center>
+  </div>
+  <div class="album-card">
+    <img src="img/uitm.jpg" alt="Highschool" title="academic">
+    <p><strong>UNIVERSITY</strong></p>
+    <center>UNIVERSITI TEKNOLOGI MARA (UiTM)</center>
+  </div>
+</section>
+
+<footer>
+<h4>copyright:AisyahAziz</h4>
+<h3 style="text-align:right;"><a href="#top">TOP</a></h3>
+</footer>
+</body>
+</html>
